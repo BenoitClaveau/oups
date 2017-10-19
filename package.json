@@ -1,0 +1,37 @@
+{
+  "name": "oups",
+  "version": "0.0.1",
+  "description": "Error collection",
+  "main": "index.js",
+  "dependencies": {
+    "i18n": "^0.8.3"
+  },
+  "devDependencies": {
+    "jasmine": "latest",
+    "coveralls": "latest",
+    "istanbul": "latest"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha tests",
+    "test-cover": "node_modules/.bin/istanbul cover ./node_modules/mocha/bin/mocha tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BenoitClaveau/oups.git"
+  },
+  "keywords": [
+    "Error",
+    "CustomError",
+    "RuntimeError",
+    "HttpError"
+  ],
+  "author": {
+    "name": "Benoît Claveau",
+    "email": "benoit.claveau@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenoitClaveau/oups/issues"
+  },
+  "homepage": "https://github.com/BenoitClaveau/oups"
+}
