@@ -10,7 +10,6 @@
     "coveralls": "latest",
     "expect.js": "latest",
     "istanbul": "latest",
-    "jasmine": "latest",
     "mocha": "latest"
   },
   "scripts": {
