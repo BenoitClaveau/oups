@@ -6,4 +6,5 @@
 
 'use strict';
 
-module.exports.RuntimeError = require('./lib/runtime');
+module.exports.Oups = require('./lib/oups');
+module.exports.Error = require('./lib/error');

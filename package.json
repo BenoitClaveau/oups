@@ -1,6 +1,6 @@
 {
   "name": "oups",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Error collection",
   "main": "index.js",
   "dependencies": {
@@ -22,7 +22,6 @@
   },
   "keywords": [
     "Error",
-    "CustomError",
     "RuntimeError",
     "HttpError"
   ],
