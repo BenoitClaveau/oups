@@ -14,10 +14,10 @@ describe("Error", () => {
         try {
             throw new Error("Test")
         } 
-        catch(runtimeError) {
-            expect(runtimeError.message).to.be("Test");
-            expect(runtimeError.name).to.be("Error");
-            console.log(runtimeError.toString())
+        catch(error) {
+            expect(error.message).to.be("Test");
+            expect(error.name).to.be("Error");
+            console.log(error.toString())
         }
     });
 
