@@ -6,6 +6,5 @@
 
 'use strict';
 
-module.exports.Oups = require('./lib/oups');
 module.exports.Error = require('./lib/error');
 module.exports.HttpError = require('./lib/http-error');
