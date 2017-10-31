@@ -7,4 +7,5 @@
 'use strict';
 
 module.exports.Error = require('./lib/error');
-module.exports.HttpError = require('./lib/http-error');
+module.exports.HttpError = require('./lib/http');
+module.exports.UndefinedError = require('./lib/undefined');

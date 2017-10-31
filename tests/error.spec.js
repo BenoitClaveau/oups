@@ -20,7 +20,7 @@ describe("bind data", () => {
         }
     });
 
-    it("bind comples data", () => {
+    it("bind complex data", () => {
         try {
             throw new Error("Hello ${user.name}!", { user: { name: "Paul" }});
         }
