@@ -10,3 +10,4 @@ module.exports.Error = require('./lib/error');
 module.exports.HttpError = require('./lib/http');
 module.exports.UndefinedError = require('./lib/undefined');
 module.exports.NotImplementedError = require('./lib/not-implemented');
+module.exports.NotFoundError = require('./lib/not-found');
