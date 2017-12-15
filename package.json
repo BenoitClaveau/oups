@@ -1,10 +1,11 @@
 {
   "name": "oups",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Error collection",
   "main": "index.js",
   "dependencies": {
-    "i18n": "^0.8.3"
+    "i18n": "latest",
+    "chalk": "latest"
   },
   "devDependencies": {
     "coveralls": "latest",
