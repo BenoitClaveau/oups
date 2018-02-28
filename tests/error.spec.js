@@ -46,4 +46,22 @@ describe("bind data", () => {
             console.log(error.toString())
         }
     });
+
+    it("data", () => {
+        try {
+            throw new Error("Hello ${Name5}!", { Name5: "Paul" })
+        } 
+        catch(error) {
+            expect(error.message).to.be("Hello Paul!");
+        }
+    });
+
+    it("data with non wrod field", () => {
+        try {
+            throw new Error("Hello ${data['Name 5']}!", { "Name 5": "Paul" })
+        } 
+        catch(error) {
+            expect(error.message).to.be("Hello Paul!");
+        }
+    });
 });
