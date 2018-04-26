@@ -23,7 +23,10 @@
   },
   "keywords": [
     "Error",
-    "RuntimeError",
+    "ES6",
+    "Litteral",
+    "Template",
+    "String",
     "HttpError"
   ],
   "author": {
