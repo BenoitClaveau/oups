@@ -2,7 +2,9 @@
 
 Throw error with ES6 Template Strings.
 
-throw(new Error("Your ${es6} Template String", { es6: "ES6"}));
+```.js
+throw new Error("Your ${es6} Template String", { es6: "ES6"});
+```
 
  [![NPM][npm-image]][npm-url]
  [![Build Status][travis-image]][travis-url]
