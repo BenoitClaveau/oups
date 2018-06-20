@@ -8,7 +8,7 @@
 const { Error } = require('../index');
 const expect = require('expect.js');
 
-describe("bind data", () => {
+describe("Error", () => {
 
     it("new Error", () => {
         try {

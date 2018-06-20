@@ -8,7 +8,7 @@
 const { HttpError } = require('../index');
 const expect = require('expect.js');
 
-describe("Error", () => {
+describe("Http", () => {
 
     it("message", () => {
         try {
