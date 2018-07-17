@@ -43,7 +43,6 @@ describe("Error", () => {
             expect(error.message).to.be("Override error");
             expect(error.name).to.be("RuntimeError");
             expect(error.ancestor.message).to.be("Test");
-            console.log(error.toString())
         }
     });
 
@@ -56,7 +55,7 @@ describe("Error", () => {
         }
     });
 
-    it("data with non wrod field", () => {
+    it("data with no word field", () => {
         try {
             throw new Error("Hello ${data['Name 5']}!", { "Name 5": "Paul" })
         } 
